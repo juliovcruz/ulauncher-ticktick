@@ -41,13 +41,6 @@
       "name": "TickTick Password",
       "description": "",
       "default_value": ""
-    },
-    {
-      "id": "notion_token",
-      "type": "input",
-      "name": "Notion token",
-      "description": "You can generate a token in https://www.notion.so/my-integrations, create an integration and follow the instructions to link the token with a database",
-      "default_value": ""
     }
   ]
 }
