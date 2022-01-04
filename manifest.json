@@ -1,0 +1,53 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "TickTick",
+  "description": "Create tasks in TickTick",
+  "developer_name": "Julio Cruz",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "ticktick_keyword",
+      "type": "keyword",
+      "name": "TickTick",
+      "default_value": "tk"
+    },
+    {
+      "id": "ticktick_client_id",
+      "type": "input",
+      "name": "TickTick ClientId",
+      "description": "",
+      "default_value": ""
+    },
+    {
+      "id": "ticktick_client_secret",
+      "type": "input",
+      "name": "TickTick Client Secret",
+      "description": "",
+      "default_value": ""
+    },
+    {
+      "id": "ticktick_email",
+      "type": "input",
+      "name": "TickTick Email",
+      "description": "",
+      "default_value": ""
+    },
+    {
+      "id": "ticktick_password",
+      "type": "input",
+      "name": "TickTick Password",
+      "description": "",
+      "default_value": ""
+    },
+    {
+      "id": "notion_token",
+      "type": "input",
+      "name": "Notion token",
+      "description": "You can generate a token in https://www.notion.so/my-integrations, create an integration and follow the instructions to link the token with a database",
+      "default_value": ""
+    }
+  ]
+}
